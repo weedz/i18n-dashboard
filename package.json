@@ -1,12 +1,20 @@
 {
   "name": "i18n-dashboard",
   "version": "1.0.0",
-  "description": "## TODO: - How to define a locale?     ```typescript     type StringFunction = {         (...params: any): string     }     export type StringValue = {         [key: string]: string | StringFunction | AnyComponent | ComponentConstructor     };     ```     - Make sure all locales use the same definition for a key. Eg. the key `test` for `en` is defined as         ```typescript         \"test\": (name: string) => `Hello ${name}!`         ```         then it must be defined as a function with 1 parameter for all locales.     - When we use a component as a value we must define the file as `.tsx`/`.jsx`.",
+  "description": "Dashboard/management for @weedzcokie/i18n-preact",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weedz/i18n-dashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/weedz/i18n-dashboard/issues"
+  },
+  "homepage": "https://github.com/weedz/i18n-dashboard#readme"
 }
