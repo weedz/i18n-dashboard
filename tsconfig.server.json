@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ESNext",
+    "strict": true,
+    "sourceMap": true,
+    "baseUrl": "./src",
+    "outDir": "server",
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/server"
+  ]
+}
