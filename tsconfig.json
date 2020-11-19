@@ -6,7 +6,7 @@
     "jsx": "react",
     "jsxFactory": "h",
     "sourceMap": true,
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "moduleResolution": "node",
     "resolveJsonModule": true
   },

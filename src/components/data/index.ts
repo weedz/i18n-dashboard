@@ -1,3 +1,5 @@
+import { StringSource } from "../../types";
+
 export const files = [
     "i18n/main.ts",
     "i18n/nav.ts",
@@ -8,35 +10,7 @@ export const locales = [
     "se"
 ];
 
-export type StringValue = ({
-    type: "string"
-} | {
-    type: "function"
-    params: [
-        {
-            name: string
-            type: string|number|boolean|any
-        }
-    ]
-} | {
-    type: "component"
-    params: [
-        {
-            name: "props"
-            type: any
-        }
-    ]
-}) & {
-    value: string
-}
-
-export const strings: {
-    [file: string]: {
-        [locale: string]: {
-            [key: string]: StringValue
-        }
-    }
-} = {
+export const strings: StringSource = {
     "i18n/main.ts": {
         en: {
             "a": {type: "string", value: "en, A"},

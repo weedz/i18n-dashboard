@@ -1,6 +1,7 @@
 import { h } from "preact";
 import { RoutableProps } from "preact-router";
-import { strings, StringValue } from "./data";
+import { strings } from "./data";
+import { StringValue } from "src/types";
 
 type Props = {
     locale: string

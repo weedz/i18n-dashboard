@@ -2,14 +2,15 @@
   "compilerOptions": {
     "module": "CommonJS",
     "target": "ESNext",
+    "lib": ["ESNext"],
     "strict": true,
     "sourceMap": true,
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "outDir": "server",
     "moduleResolution": "node",
     "resolveJsonModule": true
   },
   "include": [
-    "src/server"
+    "src/server/"
   ]
 }
